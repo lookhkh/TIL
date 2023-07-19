@@ -10,6 +10,6 @@
  # TrustStore
 
   TrustStore란, 어플리케이션이 신뢰할 수 있는 인증서 정보를 저장하는 장소이다. 예를 들어, 웹 클라이언트가 웹 서버와 TLS Handshake를 진행하는 중, 서버는 자신의
-  Certificate을 전송한다. 이때 해당 Certificate이 TrustStore에 존재하지 않을 경우, TLS Handshake는 실패하게 된다.
+  Certificate을 전송한다. 이때 해당 Certificate 혹은 CA가 TrustStore에 존재하지 않을 경우, TLS Handshake는 실패하게 된다.
 
   (https://yasarayasawardhana.medium.com/beginners-guide-to-key-stores-and-trust-stores-f7fa6d70ca2e)
