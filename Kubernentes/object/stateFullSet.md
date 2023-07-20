@@ -24,9 +24,9 @@ StateFullSet을 사용할 수 있다. 파드의 경우 사라질 수 있지만, 
 * Stable, unique network identifiers.
 * Stable, persistent storage.
 * Ordered, graceful deployment and scaling.
+* Ordered, automated rolling updates.
 
  이때, 배포하고자 하는 어플리케이션이 일정한 식별자, 배포 순서, 삭제 순서, 확장 순서 등이 
  상관이 없는 경우(StateLess)에는 Deployment를 사용하는 것이 좋다.
-* Ordered, automated rolling updates.
 
 
